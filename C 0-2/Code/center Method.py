@@ -1,0 +1,6 @@
+Name=input("Enter Your Name: ")
+Name=Name.strip()
+T=len(Name)
+print(T)
+N=int(input("How Many Star You Need: "))
+print(Name.center((T+N),"*"))
